@@ -1,9 +1,9 @@
-### chrome-extension-fe-beautify
-#### 格式化HTML\JS\CSS，压缩JS
-- 格式化基于brackets-beautify[1]
-- 压缩基于UglifyJS2[2]
-- 样式布局基于bootstrap[3]
+chrome-extension-fe-beautify
+============================
 
-[1]: https://github.com/drewhjava/brackets-beautify
-[2]: https://github.com/mishoo/UglifyJS2
-[3]: http://twitter.github.io/bootstrap/
+格式化HTML\JS\CSS，压缩JS
+
+- 格式化基于[brackets-beautify](https://github.com/drewhjava/brackets-beautify)
+- 压缩基于[UglifyJS2](https://github.com/mishoo/UglifyJS2)
+- 样式布局基于[bootstrap](http://twitter.github.io/bootstrap/)
+- 复制功能基于[ZeroClipboard](https://github.com/jonrohan/ZeroClipboard)
