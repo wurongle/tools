@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FE-Beautify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="popup.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="bs-docs-example mhv10">
+      <textarea id="textarea" rows="10"></textarea><br>
+      <div class="btn-group">
+        <button id="beautify-html" class="btn btn-info" data-toggle="tooltip" data-original-title="done!">格式化HTML</button>
+        <button id="beautify-js" class="btn" data-toggle="tooltip" data-original-title="done!">格式化JS</button>
+        <button id="beautify-css" class="btn" data-toggle="tooltip" data-original-title="done!">格式化CSS</button>
+        <button id="compress" class="btn" data-toggle="tooltip" data-original-title="done!">压缩JS</button>
+        <button id="copy" class="btn btn-warning" data-toggle="tooltip" data-original-title="done!">复制</button>
+        <button id="clean" class="btn btn-danger" data-toggle="tooltip" data-original-title="done!">清空</button>
+      </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="brackets-beautify/beautify-html.js"></script>
+    <script src="brackets-beautify/beautify.js"></script>
+    <script src="brackets-beautify/beautify-css.js"></script>
+    <script src="ZeroClipboard/ZeroClipboard.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

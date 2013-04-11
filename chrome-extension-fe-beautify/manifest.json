@@ -1,0 +1,14 @@
+{  
+  "manifest_version":2,
+  "name": "FE-Beautify",  
+  "version": "0.0.1",  
+  "description": "beautify",  
+  "browser_action": {
+    "default_icon": "icon.png" ,
+    "default_title": "FE-Beautify",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://nodejs506.duapp.com/"
+  ]
+}
